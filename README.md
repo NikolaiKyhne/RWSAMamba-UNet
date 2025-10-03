@@ -1,5 +1,5 @@
-# Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement (paper on arXiv soon)
-This is the official repository for the paper [Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement](https://arxiv.org/abs/2507.00966v1).
+# Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement 
+This is the official repository for the paper [Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement](https://arxiv.org/abs/2510.01958).
 
 The VB-DemandEx dataset can be found [here](https://huggingface.co/datasets/NikolaiKyhne/VB-DemandEx). Code to download and extract the dataset is available [here](https://github.com/NikolaiKyhne/RWSAMamba-UNet/blob/main/download_dataset.py).
 
@@ -81,12 +81,12 @@ The evaluation metrics is calculated via: [CMGAN](https://github.com/ruizhecao96
 
 
 ## Citation:
-If you find the paper useful in your research, please cite: (UPDATE!!!!!!) 
+If you find the paper useful in your research, please cite:
 ```
-@article{kuehne2025mambattention,
-  title={MambAttention: Mamba with Multi-Head Attention for Generalizable Single-Channel Speech Enhancement},
+@article{kuehne2025exploring,
+  title={Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement},
   author={Nikolai Lund K{\"u}hne and Jesper Jensen and Jan {\O}stergaard and Zheng-Hua Tan},
-  journal={arXiv preprint arXiv:2507.00966},
+  journal={arXiv preprint arXiv:2510.01958},
   year={2025}
 }
 ```
