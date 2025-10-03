@@ -63,7 +63,7 @@ Create the dataset JSON file using the script `data/make_dataset_json.py`. You m
 Modify the `--exp_name`, `--exp_folder`, and `--config` parameters in the command to match your folder structure.
 
 ```bash
-NCCL_P2P_DISABLE=1 torchrun --nnodes=1 --nproc-per-node=4 RWSAMamba-UNet/train.py --exp_name=seed3441 --exp_folder=results/ --config=RWSAMamba-UNet/checkpoints/RWSA_s.yaml
+NCCL_P2P_DISABLE=1 torchrun --nnodes=1 --nproc-per-node=4 RWSAMamba-UNet/train.py --exp_name=seed3441 --exp_folder=results/ --config=RWSAMamba-UNet/checkpoints/RWSA_MambaUNet_s.yaml
 ```
 
 ## Running Inference
@@ -71,7 +71,7 @@ NCCL_P2P_DISABLE=1 torchrun --nnodes=1 --nproc-per-node=4 RWSAMamba-UNet/train.p
 Modify the `--input_folder` and `--output_folder` parameters to point to your desired input and output directories. Then, run the script.
 
 ```bash
-NCCL_P2P_DISABLE=1 python RWSAMamba-UNet/inference.py --input_folder=VB-DemandEx/noisy_test --output_folder=output --checkpoint_file=results/g_00xxxxxx.pth --config=RWSAMamba-UNet/checkpoints/RWSA_s.yaml
+NCCL_P2P_DISABLE=1 python RWSAMamba-UNet/inference.py --input_folder=VB-DemandEx/noisy_test --output_folder=output --checkpoint_file=results/g_00xxxxxx.pth --config=RWSAMamba-UNet/checkpoints/RWSA_MambaUNet_s.yaml
 ```
 
 Model weights and training recipe can be found in: [RWSAMamba-UNet Recipe and Model Weights](https://github.com/NikolaiKyhne/RWSAMamba-UNet/tree/main/checkpoints).
