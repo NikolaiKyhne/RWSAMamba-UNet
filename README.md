@@ -1,4 +1,4 @@
-# Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement 
+# Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement (Accepted to IEEE ICASSP 2026)
 This is the official repository for the paper [Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for Improved Cross-Corpus Speech Enhancement](https://arxiv.org/abs/2510.01958).
 
 The VB-DemandEx dataset can be found [here](https://huggingface.co/datasets/NikolaiKyhne/VB-DemandEx). Code to download and extract the dataset is available [here](https://github.com/NikolaiKyhne/RWSAMamba-UNet/blob/main/download_dataset.py).
